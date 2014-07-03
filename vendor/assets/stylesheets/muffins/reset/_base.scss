@@ -1,0 +1,21 @@
+/**
+ * BASE RESEt
+ * -------------------------------------
+ */
+
+// Prevent iOS text size adjust after orientation change, without disabling user zoom.
+html{ 
+    -ms-text-size-adjust: 100%; 
+    -webkit-text-size-adjust: 100%; 
+
+    @include box-sizing(border-box);
+}
+
+//  Remove default margin.
+body {
+    margin: 0;
+}
+
+* {
+  @include box-sizing(border-box);
+}
