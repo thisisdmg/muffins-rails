@@ -11,12 +11,18 @@ Adds [Muffins](https://github.com/thisisdmg/muffins "Muffins") 0.0.1 to your Rai
 
 Add this line to your application's Gemfile:
 
-    gem 'muffins-rails', github: 'thisisdmg/muffins-rails'
+```ruby
+gem 'muffins-rails', github: 'thisisdmg/muffins-rails'
+```
 
 execute:
 
-    $ bundle install
+```sh
+$ bundle install
+```
 
 and run:
 
-    $ bin/rails generate muffins:install
+```sh
+$ bin/rails generate muffins:install
+```
