@@ -19,7 +19,7 @@ $space : 8px !default;
  * Sets the number of columns
  * @var $total-columns (number)
  */
-$total-columns: 12;
+$total-columns: 12 !default;
 
 /*
  * Sets the grids breakpoints an classes
@@ -41,4 +41,4 @@ $grid-breakpoints: (
     ('md', 641px, null),
     ('lg', 961px, null),
     ('xl', 1261px, null)
-);
+) !default;
